@@ -70,7 +70,7 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/' onClick={toggleHome}>
-                        cyjroxweb:  
+                            cyjroxweb:  
                         </SocialLogo>
                         <WebsiteRights>cyjrox o { new Date().getFullYear() } 
                         All rights reserved.</WebsiteRights>

@@ -9,7 +9,7 @@ import {
     ServicesH2, 
     ServicesIcon, 
     ServicesP, 
-    ServicesWrapper 
+    ServicesWrapper,
 } from './ServicesElements';
 
 const Services = () => {
@@ -38,4 +38,4 @@ const Services = () => {
     )
 }
 
-export default Services
+export default Services;

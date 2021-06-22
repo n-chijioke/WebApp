@@ -1,12 +1,14 @@
-//import { Subtitles } from '@material-ui/icons'
 import React from 'react';
 import { Button } from '../ButtonElements';
+/* import img from '../../images/svg-1.svg';
+import img from '../../images/svg-2.svg';
+import img from '../../images/svg-3.svg';*/
 import { 
     BtnWrap, 
     Column1, 
     Column2, 
-    Heading, 
-    Img, 
+    Heading,
+    Img,
     ImgWrap, 
     InfoContainer, 
     InfoRow, 
@@ -19,6 +21,8 @@ import {
 const InfoSection = ({
     lightBg, 
     id, 
+    require,
+    img,
     imgStart,
     topLine, 
     lightText, 
@@ -26,7 +30,6 @@ const InfoSection = ({
     darkText, 
     description, 
     buttonLabel, 
-    img, 
     alt, primary, 
     dark, 
     dark2
@@ -65,7 +68,7 @@ const InfoSection = ({
             </InfoWrapper>
           </InfoContainer>  
         </>
-    )
-}
+    );
+};
 
-export default InfoSection
+export default InfoSection;
